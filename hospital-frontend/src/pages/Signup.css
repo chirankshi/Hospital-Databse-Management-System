@@ -1,0 +1,109 @@
+.signup-page {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-left,
+.signup-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-left {
+  background-color: #ffffff;
+  padding: 40px;
+  text-align: center;
+}
+
+.signup-left h2 {
+  font-size: 32px;
+  color: #00838f;
+}
+
+.signup-left p {
+  color: #666;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.signup-form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.signup-form button {
+  background-color: #00838f;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #005f6b;
+}
+
+.signup-form .login-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-form .login-link a {
+  color: #00838f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signup-form .error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.signup-right {
+  background-color: #e0f7fa;
+  text-align: center;
+}
+
+.icon-circle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #00838f;
+}
+
+.signup-right h3 {
+  font-size: 28px;
+  color: #00838f;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .signup-page {
+    flex-direction: column;
+  }
+
+  .signup-right {
+    display: none;
+  }
+}

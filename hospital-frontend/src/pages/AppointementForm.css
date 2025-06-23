@@ -1,0 +1,96 @@
+:root {
+  --mainclr: #239f85;
+  --bg: #e0f2e9;
+  --inputbg: #f7fdfc;
+  --text: #2d5c4f;
+}
+
+/* ✅ Push content below fixed navbar */
+.form-wrapper {
+  padding-top: 10px; /* Adjust based on your navbar height */
+}
+
+/* ✅ Typography and base layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: var(--bg);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: var(--text);
+}
+
+.progress {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* ✅ Form styling */
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #5e8b7e;
+  border-radius: 5px;
+  background-color: var(--inputbg);
+}
+
+.radio-group label {
+  margin-right: 20px;
+  font-weight: normal;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.row .half {
+  flex: 1;
+}
+
+.next-button {
+  padding: 12px 30px;
+  background-color: var(--text);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #1e3d35;
+}
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 10px 0;
+}
+
+.radio-group label {
+  font-weight: normal;
+}

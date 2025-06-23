@@ -1,0 +1,44 @@
+.services-page {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.services-page {
+  padding: 30px 20px 30px; /* ⬅️ Add top padding to push content below the fixed navbar */
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+
+.services-heading {
+  font-size: 2.5rem;
+  color: #239f85;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card .icon {
+  font-size: 3rem;
+  color: #239f85;
+  margin-bottom: 20px;
+}
