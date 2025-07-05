@@ -15,9 +15,9 @@ APIs: RESTful endpoints for CRUD operations
 ✨ Features
 🩺 Doctor & Patient dashboards
 
-📅 Appointment booking and calendar view
+📅 Appointment booking 
 
-🗂️ Admin panel to manage doctors, patients & appointments
+🗂️ panel to manage doctors, patients & appointments
 
 📬 Contact/Query form with backend storage
 
